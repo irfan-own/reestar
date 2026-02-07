@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav p{
+    color: #808080;
+}
+
+nav a{
+    cursor: pointer;
+}
+
+nav a:hover{
+    color: white;
+}
+
+/* Food Menu */
+
+.food{
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-right: 5px;
+}
+
+.food img{
+    width: 300px;
+    height: 400px;
+}
+
+.food button{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.food-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Contact */
+
+.contact{
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.contact button{
+    background-color: yellow;
+    color: black;
+    width: 25%;
+    cursor: pointer;
+}
